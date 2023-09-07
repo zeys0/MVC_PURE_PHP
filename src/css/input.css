@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PixelFont";
+  src: url("../font/pixel.ttf") format("truetype");
+}
+
+.name-pixel {
+  font-family: "PixelFont", sans-serif;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-purple-950 bg-opacity-70 backdrop:blur-sm;
+
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-slate-300;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+/* VANILLA TILT JS */
+
+.keyboard-box {
+  font-family: "PixelFont", sans-serif;
+  background-image: linear-gradient(to right, #3b0764, #880e4f, #d90429);
+  border-radius: 10px;
+  height: 500px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.keyboard-box::before {
+  content: "My";
+  position: absolute;
+  color: gray;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.keyboard-box:hover::before {
+  opacity: 0.2;
+}
+
+.keyboard-box::after {
+  content: "Gallery";
+  position: absolute;
+  color: black;
+  font-size: 4.3em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.keyboard-box:hover::after {
+  opacity: 0.2;
+}
+
+.keyboard-name {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+.keyboard-box:hover .keyboard-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.keyboard-button {
+  position: absolute;
+  transform: translate3d(-50%, 0, 100px);
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  transition: 0.5s;
+  text-align: center;
+}
+.keyboard-box:hover .keyboard-button {
+  bottom: 10px;
+  opacity: 1;
+}
+.keyboard-img {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  max-width: 300px;
+  transform: translate3d(-50%, -52%, 80px);
+  transition: 0.5;
+  z-index: 10;
+}
+.keyboard-box:hover .keyboard-img {
+  transform: translate3d(-50%, -52%, 80px) rotate(5deg) scale(1.2);
+}
