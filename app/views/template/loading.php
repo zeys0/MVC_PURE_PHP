@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <h1>Kon'nichiwa, Selamat datang di website saya</h1>
+        <h1>Wait, please......</h1>
     </header>
 
     <!-- 
@@ -75,7 +75,7 @@
     </div>
 
 
-    <p>Wait, please...</p>
+
 
 </body>
 

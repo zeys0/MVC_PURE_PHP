@@ -1,6 +1,6 @@
 <!-- Hero section  -->
 
-<section id="home" class="name-pixel pt-36 bg-gradient-to-br from-purple-950 via-slate-950 to-purple-950 bg-opacity-90">
+<section id="home" class="name-pixel pt-36 bg-gray-950">
     <div class="container">
         <div class="flex flex-wrap">
             <div class="w-full self-center px-4 lg:w-1/2">
@@ -18,7 +18,7 @@
                 <h2 class="gsap4 font-medium text-slate-300 text-lg mb-5 lg:text-2xl" id="role">Student | <span class="bg-gradient-to-r text-transparent bg-clip-text from-blue-500 to-purple-500">informatics</span></h2>
                 <!-- Teks yang ingin dianimasikan -->
                 <p class="lead font-medium text-slate-300" id="description">
-                    I am a Computer Science student from Sultan Agung Islamic University Semarang</p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nisi eius sunt architecto dolores commodi.</p>
                 <div class=" text-white mt-2">
                     <div class="flex -mx-1 flex-wrap m-auto">
                         <button class="rounded px-3 py-2 m-1 border-b-4 border-l-2 shadow-lg bg-gradient-to-br from-blue-500 via-violet-900 to-purple-500 border-violet-950 text-white hover:opacity-80">
@@ -46,7 +46,7 @@
 <!-- Hero Section End -->
 
 <!-- Section About -->
-<section id="about" class="pt-36 pb-12 bg-gradient-to-tr from-slate-950 via-purple-950 to-slate-950 bg-opacity-90">
+<section id="about" class="pt-36 pb-12  bg-gray-950">
     <div class="container">
         <div class="flex flex-wrap items-center">
 
@@ -179,7 +179,7 @@
 <!-- End Section About -->
 
 <!-- Section Portofolio -->
-<section id="portofolio" class="pt-36 pb-16 bg-gradient-to-br from-purple-950 via-slate-950 to-purple-950 bg-opacity-90">
+<section id="portofolio" class="pt-36 pb-16 bg-gray-950">
     <div class="container">
         <div class="w-full px-4">
             <div class="max-w-xl mx-auto text-center mb-16">

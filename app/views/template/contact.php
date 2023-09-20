@@ -1,4 +1,4 @@
-<section id="contact" class="pt-36 pb-32 bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950 bg-opacity-90">
+<section id="contact" class="pt-36 pb-32 bg-gray-950">
     <div class="container">
 
         <img src="../public/img/loading.png" alt="halo" width="500" class="absolute right-0 -z-1" />

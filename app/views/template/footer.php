@@ -1,6 +1,6 @@
  <!-- Section FOOTER -->
 
- <footer class="bg-gradient-to-br from-purple-950 via-slate-950 to-purple-950 bg-opacity-90">
+ <footer class="bg-gray-950">
      <div class="container">
          <div class="flex flex-wrap">
              <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
