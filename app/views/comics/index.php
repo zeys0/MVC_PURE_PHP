@@ -79,6 +79,9 @@
                 </tbody>
             <?php endforeach; ?>
         </table>
+
+    </div>
+    </div>
     </div>
 
 </section>
