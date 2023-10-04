@@ -1,6 +1,6 @@
 <!-- Section data comics -->
 
-<section class="name-pixel pt-36 pb-32 bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950 bg-opacity-90">
+<section class="name-pixel max-w-full pt-36 pb-32 bg-gray-950 ">
     <div class="container">
         <div class="w-full px-4">
             <div class="max-w-xl mx-auto text-center mb-16">
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </form>
-        <table class="w-full divide-y table-fixed  text-center mt-2">
+        <table class="w-full divide-y table-fixed text-center mt-2">
             <thead class="bg-transparent">
                 <tr>
 
@@ -62,14 +62,14 @@
             <?php foreach ($data['comics'] as $a) : ?>
                 <tbody class="bg-transparent ">
                     <tr>
-                        <td class="py-4 px-6 text-sm font-medium text-slate-400 whitespace-nowrap dark:text-white"><?php echo $i++; ?></td>
-                        <td class="py-4 px-6 text-sm font-medium text-slate-400 whitespace-nowrap dark:text-white"><img src="img/<?php echo $a['sampul']; ?>" width="150" alt="<?php echo $a['judul']; ?>" class="rounded-md img-center"></td>
-                        <td class="py-4 px-6 text-sm font-medium text-slate-400 whitespace-nowrap dark:text-white"><?php echo $a['judul']; ?></td>
-                        <td class="py-4 px-6 text-sm font-medium whitespace-nowrap dark:text-white">
+                        <td class="py-4 px-4 text-xs md:text-sm md:font-medium font-light text-slate-400 whitespace-nowrap dark:text-white"><?php echo $i++; ?></td>
+                        <td class="py-4 px-4 text-xs md:text-sm md:font-medium font-light text-slate-400 whitespace-nowrap dark:text-white"><img src="img/<?php echo $a['sampul']; ?>" width="150" alt="<?php echo $a['judul']; ?>" class="rounded-md img-center"></td>
+                        <td class="py-4 px-4 text-xs md:text-sm md:font-medium font-light text-slate-400 whitespace-nowrap dark:text-white"><?php echo $a['judul']; ?></td>
+                        <td class="py-4 px-4 text-xs md:text-sm md:font-medium font-light whitespace-nowrap dark:text-white grid grid-cols-2 md:grid-cols-none md:flex justify-center">
                             <a href="<?php echo BASEURL; ?>/Comics/detail/<?php echo $a['id']; ?>" class="text-sm bg-green-600 text-slate-950 font-medium 
-                            rounded-md py-1 px-1 hover:opacity-80">Detail</a>
+                            rounded-md py-1 px-1 hover:opacity-80 m-2">Detail</a>
                             <a href="<?php echo BASEURL; ?>/Comics/delete/<?php echo $a['id']; ?>" class="text-sm bg-red-600 text-slate-950 font-medium 
-                            rounded-md py-1 px-1 hover:opacity-80" onclick="return confirm('Apakah anda yakin ingin mengahapus?');">Delete</a>
+                            rounded-md py-1 px-1 hover:opacity-80 m-2" onclick="return confirm('Apakah anda yakin ingin mengahapus?');">Delete</a>
                         </td>
 
 

@@ -1,6 +1,6 @@
 <!-- Section Contact -->
 
-<section class="pt-36 pb-32  bg-dark">
+<section class="pt-36 pb-32  bg-gray-950">
     <div class="container">
 
         <div class="min-h-screen grid place-items-center font-mono bg-gray-900">

@@ -43,25 +43,25 @@
 
                             <li class="group">
                                 <a href="<?php echo BASEURL; ?>/Home" class="text-base text-slate-300 py-2
-                            mx-8 flex  group-hover:text-slate-900">Home</a>
+                            mx-8 flex  group-hover:text-gray-950">Home</a>
                             </li>
                             <li class="group">
                                 <a href="#about" class="text-base text-slate-300 py-2
-                                mx-8 flex  group-hover:text-slate-900">About me</a>
+                                mx-8 flex  group-hover:text-gray-950">About me</a>
                             </li>
 
                             <li class="group">
                                 <a href="#portofolio" class="text-base text-slate-300 py-2
-                                mx-8 flex  group-hover:text-slate-900">Gallery</a>
+                                mx-8 flex  group-hover:text-gray-950">Gallery</a>
                             </li>
                             <li class="group">
                                 <a href="#contact" class="text-base text-slate-300 py-2
-                                mx-8 flex  group-hover:text-slate-900">Contact</a>
+                                mx-8 flex  group-hover:text-gray-950">Contact</a>
                             </li>
                             <li class="group">
                                 <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-slate-300 hover:bg-slate-900 border-b
-                                 border-slate-300  mx-8 mt-2 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-primary md:p-0 font-medium flex 
-                                 items-center justify-between w-full md:w-auto dropdown-toggle">Database<svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                 border-slate-300  mx-8 mt-2 md:hover:bg-transparent md:border-0 hover:text-primary md:p-0 font-medium flex 
+                                 items-center justify-between  md:w-auto dropdown-toggle">Database<svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                     </svg></button>
                                 <!-- Dropdown menu -->

@@ -1,6 +1,6 @@
  <!-- Section FOOTER -->
 
- <footer class="bg-gradient-to-br  from-purple-950 via-slate-950 to-purple-950 bg-opacity-90">
+ <footer class="bg-gray-950">
      <div class="container">
 
 

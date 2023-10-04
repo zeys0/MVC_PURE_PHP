@@ -3,7 +3,7 @@
 <section id="home" class="name-pixel pt-36 bg-gray-950">
     <div class="container">
         <div class="flex flex-wrap">
-            <div class="w-full self-center px-4 lg:w-1/2">
+            <div class=" w-full self-center px-4 lg:w-1/2">
                 <div class="flex items-center">
                     <!-- Teks yang ingin dianimasikan -->
                     <h1 class="gsap1 text-base font-semibold text-slate-300 md:text-xl"></h1>
@@ -46,13 +46,13 @@
 <!-- Hero Section End -->
 
 <!-- Section About -->
-<section id="about" class="pt-36 pb-12  bg-gray-950">
+<section id="about" class="pt-12 pb-12  bg-gray-950">
     <div class="container">
         <div class="flex flex-wrap items-center">
 
-            <div class="border-spacing-4 mb-6 rounded-full">
+            <div class="border-spacing-4 mb-6 rounded-full md:block hidden">
 
-                <img src="../public/img/astro.png" alt="" class="max-w-md lg:w-auto mb-6 lg:mb-0">
+                <img src="../public/img/astro.png" alt="" class=" max-w-md lg:w-auto mb-6 lg:mb-0">
             </div>
             <div class="w-full lg:w-1/2 mx-4 mt-8">
 
@@ -179,7 +179,7 @@
 <!-- End Section About -->
 
 <!-- Section Portofolio -->
-<section id="portofolio" class="pt-36 pb-16 bg-gray-950">
+<section id="portofolio" class="pt-12 pb-16 bg-gray-950">
     <div class="container">
         <div class="w-full px-4">
             <div class="max-w-xl mx-auto text-center mb-16">
@@ -188,8 +188,8 @@
                 <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui et voluptatem debitis, voluptas quibusdam mollitia!</p>
             </div>
         </div>
-        <div class="flex flex-auto justify-center ">
-            <div class="w-1/4 my-3 mx-3">
+        <div class="flex flex-nowrap justify-center invisible md:visible">
+            <div class=" w-1/4 my-3 mx-3">
                 <div class="keyboard-box">
                     <h4 class="keyboard-name">Galery</h4>
                     <img src="../public/img/1.png" alt="keyboard-1" class="keyboard-img">
@@ -203,7 +203,7 @@
                     <a href="https://reaperscans.id/series/legend-of-northern-blade/" class="px-4 py-2 border-b-4 border-l-2 shadow-lg bg-gradient-to-br from-blue-500 via-violet-900 to-purple-500 border-violet-950 text-white hover:opacity-80  keyboard-button">Show Details</a>
                 </div>
             </div>
-            <div class="w-1/4 my-3 mx-3">
+            <div class="w-1/4 my-3 mx-3 hidden md:block">
                 <div class="keyboard-box">
                     <h4 class="keyboard-name">Galery</h4>
                     <img src="../public/img/astro.png" alt="keyboard-3" class="keyboard-img">
